@@ -13,6 +13,8 @@ qt_standard_project_setup()
 qt_add_executable(expensebot
     WIN32
     src/main.cpp
+    src/mainwindow.h
+    src/mainwindow.cpp
 )
 
 target_link_libraries(expensebot

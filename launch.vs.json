@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "expensebot.exe",
+      "name": "expensebot.exe",
+      "env": "PATH=C:\\Qt\\6.11.1\\msvc2022_64\\bin;%PATH%"
+    }
+  ]
+}
