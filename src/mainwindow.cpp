@@ -4,6 +4,10 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QWidget>
+#include <QStackedWidget>
+#include <QTreeWidget>
+#include <QTreeWidgetItem>
+#include <QHeaderView>
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
 	setWindowTitle("ExpenseBot");
