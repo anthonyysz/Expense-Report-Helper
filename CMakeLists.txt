@@ -15,6 +15,8 @@ qt_add_executable(expensebot
     src/main.cpp
     src/mainwindow.h
     src/mainwindow.cpp
+    src/budgetformat.h
+    src/budgetformat.cpp
 )
 
 target_link_libraries(expensebot

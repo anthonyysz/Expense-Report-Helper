@@ -11,7 +11,7 @@ BudgetFormat::BudgetFormat() {
 
 	BudgetSection expenses;
 	expenses.name = "Expenses";
-	expenses.locked = false;
+	expenses.locked = true;
 	expenses.children = {
 		BudgetSection{ "Necessities", false, {} },
 		BudgetSection{ "Food", false, {} },
