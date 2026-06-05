@@ -13,6 +13,7 @@ class BudgetFormat {
 public:
 	BudgetFormat();
 
+	QVector<BudgetSection>& roots();
 	const QVector<BudgetSection>& roots() const;
 
 private:

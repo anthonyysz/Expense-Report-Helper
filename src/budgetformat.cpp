@@ -23,7 +23,9 @@ BudgetFormat::BudgetFormat() {
 		expenses
 	};
 }
-
+QVector<BudgetSection>& BudgetFormat::roots() {
+	return rootSections;
+}
 const QVector<BudgetSection>& BudgetFormat::roots() const {
 	return rootSections;
 }
