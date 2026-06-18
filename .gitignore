@@ -1,2 +1,7 @@
 build/
 .vs/
+out/
+
+tests/
+
+launch.vs.json
